@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>OpenWeatherMap.API.PCL</id>
+    <version>$version$</version>
+    <title>OpenWeatherMap API (PCL)</title>
+    <authors>Joan Caron</authors>
+    <owners>Amadeusz Wieczorek</owners>
+    <licenseUrl>https://github.com/joancaron/OpenWeatherMap-Api-Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/joancaron/OpenWeatherMap-Api-Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This project is a fully asynchronous .NET Portable Class Library and .Net 4.5 library for interacting with the OpenWeatherMap API.</description>
+    <releaseNotes>Initial release of the package.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>weather forecast openweathermap pcl</tags>
+</metadata>
+</package>
