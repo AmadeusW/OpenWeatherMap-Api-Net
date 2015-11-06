@@ -10,6 +10,6 @@ namespace OpenWeatherMap.Tests
         public const double Longitude = -0.13;
         public const int CityId = 2643743;
 
-        public readonly OpenWeatherMapClient OpenWeatherMapTestClient = new OpenWeatherMapClient();
+        public readonly OpenWeatherMapClient OpenWeatherMapTestClient = new OpenWeatherMapClient("c6d698424c0ba1dabebba4bf816aa6e6");
     }
 }
