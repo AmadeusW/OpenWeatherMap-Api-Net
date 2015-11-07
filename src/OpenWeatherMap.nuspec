@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>OpenWeatherMap.API</id>
+        <version>1.0</version>
+        <title>OpenWeatherMap API</title>
+        <authors>Joan Caron</authors>
+        <owners>Amadeusz Wieczorek</owners>
+        <licenseUrl>https://github.com/joancaron/OpenWeatherMap-Api-Net/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/joancaron/OpenWeatherMap-Api-Net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This project is a fully asynchronous .NET Portable Class Library and .Net 4.5 library for interacting with the OpenWeatherMap API.</description>
+        <releaseNotes>Initial release of the package.</releaseNotes>
+        <copyright>Copyright 2015</copyright>
+        <tags>weather forecast openweathermap</tags>
+        <dependencies>
+            <group targetFramework="netcore45">
+                <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+                <dependency id="Microsoft.Net.Http" version="2.2.28" />
+            </group>
+            <group targetFramework="uap10.0">
+                <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+                <dependency id="Microsoft.Net.Http" version="2.2.28" />
+            </group>
+            <group targetFramework="wp8">
+                <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+                <dependency id="Microsoft.Net.Http" version="2.2.28" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+          <frameworkAssembly assemblyName="System.Net.Http" targetFramework="net45" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="Bin\Release\NET45\OpenWeatherMap.dll" target="lib\net45" />
+        <file src="Bin\Release\NET45\OpenWeatherMap.xml" target="lib\net45" />
+
+        <file src="Bin\Release\PCL\OpenWeatherMap.dll" target="lib\netcore45" />
+        <file src="Bin\Release\PCL\OpenWeatherMap.xml" target="lib\netcore45" />
+
+        <file src="Bin\Release\PCL\OpenWeatherMap.dll" target="lib\wp8" />
+        <file src="Bin\Release\PCL\OpenWeatherMap.xml" target="lib\wp8" />
+
+        <file src="Bin\Release\UWP\OpenWeatherMap.dll" target="lib\uap10.0" />
+        <file src="Bin\Release\UWP\OpenWeatherMap.xml" target="lib\uap10.0" />
+    </files>
+</package>
